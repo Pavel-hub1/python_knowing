@@ -102,7 +102,7 @@ def compression(n):
     return str_
 print(compression(n='qqqqwwweerrrreeer'))
 '''
-
+'''
 # Восстановление
 def decompression(n):
     str_ = ''
@@ -116,5 +116,5 @@ def decompression(n):
         i += 1
     return str_
 print(decompression(n='4q3w2e4r3er'))
-
+'''
 
