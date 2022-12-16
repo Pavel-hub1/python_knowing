@@ -102,19 +102,10 @@ def compression(n):
     return str_
 print(compression(n='qqqqwwweerrrreeer'))
 '''
-'''
-# Восстановление
-def decompression(n):
-    str_ = ''
-    i = 0
-    while i < len(n):
-        numb = 0
-        while int(n[i]) != int and i + 1 < len(n):
-            numb = n[i-1]
-            i += 1
-        str_ += n[i]*int(numb)
-        i += 1
-    return str_
-print(decompression(n='4q3w2e4r3er'))
-'''
+
+
+
+
+
+
 
